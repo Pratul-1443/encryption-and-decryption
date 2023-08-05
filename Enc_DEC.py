@@ -50,7 +50,7 @@ def decode():
 
         text2.insert(END, decrypt)
 
-    elif password == "":
+    elif password == "" :
         messagebox.showerror(" ☠️☠ERROR ☠️☠️ ", "Please enter password")
     elif password != "spark":
         messagebox.showerror(" ☠️☠ERROR ☠️☠️ ", "Wrong password")

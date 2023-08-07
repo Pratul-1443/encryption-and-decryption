@@ -90,4 +90,4 @@ Button(image=d, command=decode).place(x=250, y=255)
 
 p = PhotoImage(file='reset.png')
 Button(image=p, command=reset).place(x=150, y=380)
-root.mainloop()
+root.mainloop().
